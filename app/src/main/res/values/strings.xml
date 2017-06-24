@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Compliments App</string>
+    <string name="button_compliment">Compliment</string>
+
+    <string-array name="bodyParts">
+        <item>\u0020hair is</item>
+        <item>\u0020feet are</item>
+        <item>\u0020skin is</item>
+        <item>\u0020hands are</item>
+        <item>\u0020nails are</item>
+        <item>\u0020clothes are</item>
+        <item>\u0020face is</item>
+        <item>\u0020shoes are</item>
+    </string-array>
+
+    <string-array name="verbs">
+        <item>\u0020looking</item>
+        <item>\u0020feeling</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="adjectives">
+        <item>\u0020beautiful</item>
+        <item>\u0020stunning</item>
+        <item>\u0020soft</item>
+        <item>\u0020wonderful</item>
+        <item>\u0020excellent</item>
+        <item>\u0020shiny</item>
+        <item>\u0020perfect</item>
+        <item>\u0020awesome</item>
+        <item>\u0020lovely</item>
+    </string-array>
+</resources>
