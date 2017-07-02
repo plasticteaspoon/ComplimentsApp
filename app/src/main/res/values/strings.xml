@@ -30,4 +30,19 @@
         <item>\u0020awesome</item>
         <item>\u0020lovely</item>
     </string-array>
+
+    <string-array name="opinions">
+        <item>Yes, of course!</item>
+        <item>Looking good</item>
+        <item>Obviously!</item>
+        <item>You may have to ask Chloe\'s opinion</item>
+        <item>I\'m really not in the mood to answer you at the moment</item>
+        <item>Hmm, it might do</item>
+        <item>No way!</item>
+        <item>Burn it!</item>
+        <item>It\'s too low for a high praise, too brown for a fair praise and too little for a great praise.</item>
+    </string-array>
+    <string name="button_wear">Should I wear this?</string>
+    <string name="button_music">Music</string>
+    <string name="button_birthday_music">Happy Birthday</string>
 </resources>

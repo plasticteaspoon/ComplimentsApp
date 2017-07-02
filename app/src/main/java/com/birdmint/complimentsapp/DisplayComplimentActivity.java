@@ -28,7 +28,7 @@ public class DisplayComplimentActivity extends AppCompatActivity {
         String message = generator.getCompliment();
 
         // display the compliment
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView = (TextView) findViewById(R.id.compliment);
         textView.setText(message);
     }
 }
