@@ -14,8 +14,12 @@ public class MusicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_music);
     }
 
-    public void playMusic(String music) {
-        final MediaPlayer mp = MediaPlayer.create(this, Uri.parse("R.raw." + music));
-        mp.start();
+    public void playMusic(View view) {
+        String name = view.getTag().toString();
+        String fullName = String.format("com.birdmint.complimentsapp:raw/%s", name);
+        int id = getResources().getIdentifier(fullName, null, null);
+
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.happy_birthday);
+        mediaPlayer.start();
     }
 }
