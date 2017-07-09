@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    tools:context="com.birdmint.complimentsapp.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="viewCompliments"
+        android:text="@string/button_compliment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="177dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="139dp"
+        android:onClick="viewSIWTO"
+        android:text="@string/button_wear"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="143dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="268dp"
+        android:onClick="viewMusicGenres"
+        android:text="@string/button_music"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="207dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="389dp"
+        android:onClick="viewInsults"
+        android:text="@string/button_insult"
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
