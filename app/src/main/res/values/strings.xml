@@ -1,6 +1,16 @@
 <resources>
-    <string name="app_name">Compliments App</string>
+    <string name="app_name">BlueGirl</string>
+    <string name="compliment_activity_name">Compliments</string>
+    <string name="SIWTO_activity_name">Should I wear this?</string>
+    <string name="music_activity_name">Music</string>
+    <string name="insults_activity_name">Shakespearean Insults</string>
     <string name="button_compliment">Compliment</string>
+    <string name="button_wear">Should I wear this?</string>
+    <string name="button_music">Music</string>
+    <string name="button_birthday_music">Happy Birthday</string>
+    <string name="button_insult">Shakespearean Insult</string>
+    <string name="blue_girl">BlueGirl says</string>
+    <string name="SIWTO_text_default">Take a Picture</string>
 
     <string-array name="bodyParts">
         <item>\u0020hair is</item>
@@ -42,7 +52,55 @@
         <item>Burn it!</item>
         <item>It\'s too low for a high praise, too brown for a fair praise and too little for a great praise.</item>
     </string-array>
-    <string name="button_wear">Should I wear this?</string>
-    <string name="button_music">Music</string>
-    <string name="button_birthday_music">Happy Birthday</string>
+
+    <string-array name="insults1">
+        <item>mewling</item>
+        <item>paunchy</item>
+        <item>pribbling</item>
+        <item>puking</item>
+        <item>puny</item>
+        <item>quailing</item>
+        <item>rank</item>
+        <item>reeky</item>
+        <item>roguish</item>
+        <item>ruttish</item>
+        <item>spleeny</item>
+        <item>saucy</item>
+        <item>spongy</item>
+        <item>surly</item>
+    </string-array>
+
+    <string-array name="insults2">
+        <item>idle-headed</item>
+        <item>ill-breeding</item>
+        <item>ill-nurtured</item>
+        <item>knotty-pated</item>
+        <item>milk-livered</item>
+        <item>motley-minded</item>
+        <item>onion-eyed</item>
+        <item>plume-plucked</item>
+        <item>pottle-deep</item>
+        <item>pox-marked</item>
+        <item>reeling-ripe</item>
+        <item>rough-hewn</item>
+        <item>rude-growing</item>
+        <item>rump-fed</item>
+    </string-array>
+
+    <string-array name="insults3">
+        <item>lewdster</item>
+        <item>lout</item>
+        <item>maggot-pie</item>
+        <item>malt-worm</item>
+        <item>mammet</item>
+        <item>measle</item>
+        <item>minnow</item>
+        <item>miscreant</item>
+        <item>moldwarp</item>
+        <item>mumble-news</item>
+        <item>nut-hook</item>
+        <item>pigeon-egg</item>
+        <item>pignut</item>
+        <item>puttock</item>
+    </string-array>
 </resources>
